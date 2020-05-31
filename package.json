@@ -1,0 +1,28 @@
+{
+  "name": "chai-testing",
+  "version": "1.0.0",
+  "description": "Chai/Mocha Testing Study",
+  "main": "gameTest.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AeronRoemer/chai-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AeronRoemer/chai-testing/issues"
+  },
+  "homepage": "https://github.com/AeronRoemer/chai-testing#readme"
+}
