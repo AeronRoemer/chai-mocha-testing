@@ -24,8 +24,19 @@ function fire(player, arr){
         damageShip(location, arr);
     }
 }
+function checkGameStatus(players){
+    return false;
+}
+
+function takeTurn(player, guessFunction){
+    const coordinates = guessFunction();
+    fire(player, coordinates);
+    let gameOver = checkGameStatus();
+    return gameOver;
+}
 
 module.exports.checkForShip = checkForShip;
 module.exports.damageShip = damageShip;
 module.exports.fire = fire;
+module.exports.takeTurn = takeTurn;
 
